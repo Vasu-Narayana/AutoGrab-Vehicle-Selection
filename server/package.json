@@ -1,0 +1,22 @@
+{
+	"name": "vehicle-server",
+	"version": "1.0.0",
+	"description": "Vehicle Selection Backend",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon index.js",
+		"start": "node index.js"
+	},
+	"dependencies": {
+		"cors": "^2.8.6",
+		"express": "^4.22.1",
+		"multer": "^1.4.5-lts.1"
+	},
+	"devDependencies": {
+		"nodemon": "^3.0.1"
+	},
+	"keywords": [],
+	"author": "Vasu Narayana",
+	"license": "ISC",
+	"type": "commonjs"
+}
