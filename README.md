@@ -29,6 +29,14 @@ The backend validates:
 ## 🏗 Architecture
 
 ### Backend Structure:
+server/
+├── src/
+│    ├── constants/
+│    ├── controllers/
+│    ├── middlewares/
+│    ├── routes/
+│    └── app.js
+└── index.js
 
 **Highlights:**
 - Clean separation of concerns.
@@ -40,6 +48,13 @@ The backend validates:
 ---
 
 ### Frontend Structure:
+client/
+├── src/
+│    ├── components/
+│    ├── data/
+│    ├── services/
+│    ├── App.jsx
+│    └── main.jsx
 
 **Highlights:**
 - Controlled components.
