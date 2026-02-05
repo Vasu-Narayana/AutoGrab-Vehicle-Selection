@@ -58,7 +58,7 @@ const VehicleForm = () => {
 
 	// Validation order
 	if (!make) {
-		setError("Please select a Make.");
+		setError("Please select a Vehicle(Make).");
 		return;
 	}
 
